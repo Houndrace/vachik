@@ -12,36 +12,63 @@ int main()
 	SetConsoleOutputCP(1251);
 	setlocale(LC_ALL, "");
 
-	float alpha;
-	float t;
-	int v0;
-	float x;
-	float y;
-	int R;
-	int H;
-	int P;
-	const double pi = 3.14;
-	const double g = 9.8;
+	int monthDay;
+	int monthNumber;
+	int yearNumber;
+	int centryNumber;
+	int numberOfWeek = 0;
 
-	cout << "Data input." << endl;
-	cout << "Enter initial speed - ";
-	cin >> v0;
-	cout << "Enter alpha angle in degrees - ";
-	cin >> alpha;
-	cout << "Enter distance to the target - ";
-	cin >> R;
-	cout << "Enter height below the target - ";
-	cin >> H;
-	cout << "Enter height of the target - ";
-	cin >> P;
+	cout << "Enter the data: " << endl;
+	cout << "Day of the month - ";
+	cin >> monthDay;
+	cout << "Number of the month - ";
+	cin >> monthNumber;
+	cout << "Number of the year - ";
+	cin >> yearNumber;
 
-	x = R; 
-	t = x / (v0 * cos(alpha * pi / 180)); //calculating time by the formula
-	y = v0 * t * sin(alpha * pi / 180) - g * pow(t, 2) / 2; //how high is the hit
-	//hit check
-	if ((y > H) && (y < (P + H))) {
-		cout << "There is hit";
-	} else {
-		cout << "There is no hit";
+	if ((monthNumber == 1) || (monthNumber == 2)) {
+		yearNumber--;
 	}
+	monthNumber -= 2;
+	if (monthNumber < 1) {
+		monthNumber += 12;
+	}
+	centryNumber = yearNumber / 100;
+
+	numberOfWeek = (monthDay + (13 * monthNumber - 1) / 5 + yearNumber + yearNumber / 4 + centryNumber / 4 - 2 * centryNumber + 777) % 7;
+
+	switch (numberOfWeek) {
+	case 0:
+		cout << "Sunday";
+		break;
+	case 1:
+		cout << "Monday";
+		break;
+	case 2:
+		cout << "Tuesday";
+		break;
+	case 3:
+		cout << "Wednesday";
+		break;
+	case 4:
+		cout << "Thursday";
+		break;
+	case 5:
+		cout << "Friday";
+		break;
+	case 6:
+		cout << "Saturday";
+		break;
+	}
+
+	int quantity;
+	int summary = 0;
+
+	cout << "Количество суммируемых чисел = ";
+	cin >> quantity;
+
+	for (int i = 1; i <= quantity; i++) {
+		summary += i;
+	}
+	cout << summary;
 }
