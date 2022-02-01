@@ -1,9 +1,0 @@
-﻿  ConsoleApplication1.cpp
-D:\GitHub\vachik\MDK\Task4_71\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(27): warning C4566: символ, представленный универсальным именем символа "\u0430", невозможно представить в текущей кодовой странице (1252)
-D:\GitHub\vachik\MDK\Task4_71\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(27): warning C4566: символ, представленный универсальным именем символа "\u0444", невозможно представить в текущей кодовой странице (1252)
-D:\GitHub\vachik\MDK\Task4_71\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(27): warning C4566: символ, представленный универсальным именем символа "\u044B", невозможно представить в текущей кодовой странице (1252)
-D:\GitHub\vachik\MDK\Task4_71\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(27): warning C4566: символ, представленный универсальным именем символа "\u0432", невозможно представить в текущей кодовой странице (1252)
-D:\GitHub\vachik\MDK\Task4_71\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(38): warning C4244: =: преобразование "int" в "float", возможна потеря данных
-D:\GitHub\vachik\MDK\Task4_71\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(40): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-D:\GitHub\vachik\MDK\Task4_71\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(42): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-  ConsoleApplication1.vcxproj -> D:\GitHub\vachik\MDK\Task4_71\ConsoleApplication1\Debug\ConsoleApplication1.exe
