@@ -1,0 +1,1 @@
+D:\GitHub\vachik\MDK\9_22_SemaphoreSync\x64\Debug\9_22_SemaphoreSync.exe

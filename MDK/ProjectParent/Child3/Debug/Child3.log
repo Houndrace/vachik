@@ -1,4 +1,0 @@
-﻿  Child3.cpp
-D:\GitHub\vachik\MDK\ProjectParent\Child3\Child3.cpp(20,41): warning C4244: '/=': conversion from 'double' to 'int', possible loss of data
-D:\GitHub\vachik\MDK\ProjectParent\Child3\Child3.cpp(27,48): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-  Child3.vcxproj -> D:\GitHub\vachik\MDK\ProjectParent\Debug\Child3.exe
