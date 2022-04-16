@@ -12,6 +12,7 @@ DWORD WINAPI FillArray(LPVOID);
 bool isWait;
 
 int main() {  
+    HANDLE hSemaphore = CreateSemaphoreA(NULL, 0, 1, "FillArray");
     DWORD IDFillArray;
     HANDLE hFillArray;
     STARTUPINFOA si;
@@ -29,31 +30,50 @@ int main() {
     }
 
     hFillArray = CreateThread(NULL, NULL, FillArray, NULL, NULL, &IDFillArray);
-    if (hFillArray == NULL) {
-        cout << "error code 2: " << GetLastError();
+    if ((hFillArray == NULL) || (hSemaphore == NULL)) {
+        cout << "error code 2,3: " << GetLastError();
         return -1;
     }
+
     isWait = true;
-    WaitForSingleObject(hFillArray, INFINITE);
+    WaitForSingleObject(hSemaphore, INFINITE);
+    isWait = false;
+    cout << "work" << endl;
 
     CloseHandle(hFillArray);
+    CloseHandle(hSemaphore);
     CloseHandle(pi.hThread);
     CloseHandle(pi.hProcess); 
 }
 
 DWORD WINAPI FillArray(LPVOID) {
-    HANDLE hSemaphore = OpenSemaphoreA(SEMAPHORE_MODIFY_STATE, NULL, "FillArray");
-
-    if (hSemaphore == NULL) {
-        cout << "error code 3: " << GetLastError();
-        return -1;
-    }
-
     while (isWait) {
-        WaitForSingleObject(hSemaphore, INFINITE);
         cout << "wait" << endl;
+        Sleep(40);
     }
-
-    CloseHandle(hSemaphore);
     return 0;
 }
+// The child is given below
+//#include <iostream>
+//#include <windows.h>
+//
+//using namespace std;
+//
+//int main() {
+//    HANDLE hSemaphore = OpenSemaphoreA(SEMAPHORE_MODIFY_STATE, NULL, "FillArray");
+//
+//
+//    if (hSemaphore == NULL) {
+//        cout << "error code4: " << GetLastError();
+//        return -1;
+//    }
+//
+//
+//    for (int i = 0; i <= 100; i++) {
+//        cout << i << endl;
+//        Sleep(50);
+//    }
+//    ReleaseSemaphore(hSemaphore, 1, NULL);
+//    CloseHandle(hSemaphore);
+//    system("pause");
+//}
