@@ -1,0 +1,2 @@
+D:\GitHub\vachik\IDC_C#\n9_PieChart\bin\Release\net6.0-windows\publish\win-x64\n9_PieChart.pdb
+D:\GitHub\vachik\IDC_C#\n9_PieChart\bin\Release\net6.0-windows\publish\win-x64\n9_PieChart.exe

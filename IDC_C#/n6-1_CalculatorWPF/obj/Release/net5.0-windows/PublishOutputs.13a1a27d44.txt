@@ -1,0 +1,5 @@
+C:\Users\Hound\Desktop\New folder\n6-1_CalculatorWPF.exe
+C:\Users\Hound\Desktop\New folder\n6-1_CalculatorWPF.dll
+C:\Users\Hound\Desktop\New folder\n6-1_CalculatorWPF.deps.json
+C:\Users\Hound\Desktop\New folder\n6-1_CalculatorWPF.runtimeconfig.json
+C:\Users\Hound\Desktop\New folder\n6-1_CalculatorWPF.pdb

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "n6-1_CalculatorWPF/1.0.0": {
+        "runtime": {
+          "n6-1_CalculatorWPF.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "n6-1_CalculatorWPF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

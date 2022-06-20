@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "n9_PieChart/1.0.0": {
+        "runtime": {
+          "n9_PieChart.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "n9_PieChart/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

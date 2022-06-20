@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "n8_Double-glazedWindow/1.0.0": {
+        "runtime": {
+          "n8_Double-glazedWindow.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "n8_Double-glazedWindow/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

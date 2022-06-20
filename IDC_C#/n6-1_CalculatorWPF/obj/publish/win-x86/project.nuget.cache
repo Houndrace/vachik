@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "8z55ebkiOWbR89MK69aWgbKd6wdO1v31y24X8uLADAnV/bRHgYLRdU7A4tFz9xruAzfAqvixakqGqPr1HJ4KDA==",
+  "success": true,
+  "projectFilePath": "D:\\GitHub\\vachik\\IDC_C#\\n6-1_CalculatorWPF\\n6-1_CalculatorWPF.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hound\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\5.0.16\\microsoft.netcore.app.runtime.win-x86.5.0.16.nupkg.sha512",
+    "C:\\Users\\Hound\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\5.0.16\\microsoft.windowsdesktop.app.runtime.win-x86.5.0.16.nupkg.sha512",
+    "C:\\Users\\Hound\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\5.0.16\\microsoft.aspnetcore.app.runtime.win-x86.5.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}

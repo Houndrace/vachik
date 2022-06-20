@@ -1,0 +1,2 @@
+D:\GitHub\vachik\IDC_C#\n7_ConvertorAndElectricity\bin\Release\net5.0-windows\publish\win-x64\n7_ConvertorAndElectricity.pdb
+D:\GitHub\vachik\IDC_C#\n7_ConvertorAndElectricity\bin\Release\net5.0-windows\publish\win-x64\n7_ConvertorAndElectricity.exe

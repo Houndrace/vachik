@@ -1,0 +1,5 @@
+D:\GitHub\vachik\IDC_C#\n7_ConvertorAndElectricity\bin\Release\net5.0-windows\publish\n7_ConvertorAndElectricity.exe
+D:\GitHub\vachik\IDC_C#\n7_ConvertorAndElectricity\bin\Release\net5.0-windows\publish\n7_ConvertorAndElectricity.dll
+D:\GitHub\vachik\IDC_C#\n7_ConvertorAndElectricity\bin\Release\net5.0-windows\publish\n7_ConvertorAndElectricity.deps.json
+D:\GitHub\vachik\IDC_C#\n7_ConvertorAndElectricity\bin\Release\net5.0-windows\publish\n7_ConvertorAndElectricity.runtimeconfig.json
+D:\GitHub\vachik\IDC_C#\n7_ConvertorAndElectricity\bin\Release\net5.0-windows\publish\n7_ConvertorAndElectricity.pdb

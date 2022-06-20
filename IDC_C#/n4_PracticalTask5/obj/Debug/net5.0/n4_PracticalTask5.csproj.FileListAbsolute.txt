@@ -1,0 +1,16 @@
+D:\GitHub\vachik\IDC_C#\n4_PracticalTask5\bin\Debug\net5.0\n4_PracticalTask5.exe
+D:\GitHub\vachik\IDC_C#\n4_PracticalTask5\bin\Debug\net5.0\n4_PracticalTask5.deps.json
+D:\GitHub\vachik\IDC_C#\n4_PracticalTask5\bin\Debug\net5.0\n4_PracticalTask5.runtimeconfig.json
+D:\GitHub\vachik\IDC_C#\n4_PracticalTask5\bin\Debug\net5.0\n4_PracticalTask5.runtimeconfig.dev.json
+D:\GitHub\vachik\IDC_C#\n4_PracticalTask5\bin\Debug\net5.0\n4_PracticalTask5.dll
+D:\GitHub\vachik\IDC_C#\n4_PracticalTask5\bin\Debug\net5.0\n4_PracticalTask5.pdb
+D:\GitHub\vachik\IDC_C#\n4_PracticalTask5\obj\Debug\net5.0\n4_PracticalTask5.csproj.AssemblyReference.cache
+D:\GitHub\vachik\IDC_C#\n4_PracticalTask5\obj\Debug\net5.0\n4_PracticalTask5.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\vachik\IDC_C#\n4_PracticalTask5\obj\Debug\net5.0\n4_PracticalTask5.AssemblyInfoInputs.cache
+D:\GitHub\vachik\IDC_C#\n4_PracticalTask5\obj\Debug\net5.0\n4_PracticalTask5.AssemblyInfo.cs
+D:\GitHub\vachik\IDC_C#\n4_PracticalTask5\obj\Debug\net5.0\n4_PracticalTask5.csproj.CoreCompileInputs.cache
+D:\GitHub\vachik\IDC_C#\n4_PracticalTask5\obj\Debug\net5.0\n4_PracticalTask5.dll
+D:\GitHub\vachik\IDC_C#\n4_PracticalTask5\obj\Debug\net5.0\refint\n4_PracticalTask5.dll
+D:\GitHub\vachik\IDC_C#\n4_PracticalTask5\obj\Debug\net5.0\n4_PracticalTask5.pdb
+D:\GitHub\vachik\IDC_C#\n4_PracticalTask5\obj\Debug\net5.0\n4_PracticalTask5.genruntimeconfig.cache
+D:\GitHub\vachik\IDC_C#\n4_PracticalTask5\obj\Debug\net5.0\ref\n4_PracticalTask5.dll

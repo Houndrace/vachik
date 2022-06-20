@@ -1,0 +1,2 @@
+D:\GitHub\vachik\IDC_C#\n8_Double-glazedWindow\bin\Release\net5.0-windows\publish\win-x64\n8_Double-glazedWindow.pdb
+D:\GitHub\vachik\IDC_C#\n8_Double-glazedWindow\bin\Release\net5.0-windows\publish\win-x64\n8_Double-glazedWindow.exe

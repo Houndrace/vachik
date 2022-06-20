@@ -1,0 +1,31 @@
+﻿<Window x:Class="n6_1_CalculatorWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:n6_1_CalculatorWPF"
+        mc:Ignorable="d"
+        Title="Calculator" Height="309" Width="622">
+    <Grid>
+        <Button HorizontalAlignment="Left" Margin="190,68,0,0" VerticalAlignment="Top" FontSize="16">
+            <Button x:Name="btnPlus" Content="+" Height="35" Width="35" Click="btnPlus_Click" FontSize="16" FontWeight="Bold"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="241,68,0,0" VerticalAlignment="Top" FontSize="16">
+            <Button x:Name="btnMinus" Content="-" Height="35" Width="35" Click="btnMinus_Click" FontSize="16"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="291,68,0,0" VerticalAlignment="Top" FontSize="16">
+            <Button x:Name="btnMultiply" Content="*" Height="35" Width="35" Click="btnMultiply_Click" FontSize="16"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="341,68,0,0" VerticalAlignment="Top" FontSize="16">
+            <Button x:Name="btnDivide" Content="/" Height="35" Width="35" Click="btnDivide_Click" FontSize="16"/>
+        </Button>
+        <TextBox x:Name="tbNumber2" HorizontalAlignment="Left" Margin="181,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="203" Height="28"/>
+        <TextBox x:Name="tbNumber1" HorizontalAlignment="Left" Margin="181,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="203" Height="28"/>
+        <Label x:Name="lbAnswer" Content="Answer" HorizontalAlignment="Left" Margin="23,157,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label x:Name="lbNumber1" Content="Number 1" HorizontalAlignment="Left" Margin="23,25,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label x:Name="lbNumber2" Content="Number 2" HorizontalAlignment="Left" Margin="23,111,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label x:Name="lbOperation" Content="Operation" HorizontalAlignment="Left" Margin="23,68,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label x:Name="lbAnswerField" Content=".." HorizontalAlignment="Left" Margin="181,157,0,0" VerticalAlignment="Top"/>
+        <Label Content="Disigned by Amirov Kirill" HorizontalAlignment="Left" Margin="450,10,0,0" VerticalAlignment="Top" Height="32" Width="143"/>
+    </Grid>
+</Window>

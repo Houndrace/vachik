@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "n5_Practicaltask6/1.0.0": {
+        "runtime": {
+          "n5_Practicaltask6.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "n5_Practicaltask6/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

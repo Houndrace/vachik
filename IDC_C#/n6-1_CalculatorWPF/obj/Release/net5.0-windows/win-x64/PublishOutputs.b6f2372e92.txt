@@ -1,0 +1,2 @@
+D:\GitHub\vachik\IDC_C#\n6-1_CalculatorWPF\bin\Release\net5.0-windows\publish\win-x64\n6-1_CalculatorWPF.pdb
+D:\GitHub\vachik\IDC_C#\n6-1_CalculatorWPF\bin\Release\net5.0-windows\publish\win-x64\n6-1_CalculatorWPF.exe

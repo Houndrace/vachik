@@ -1,0 +1,11 @@
+D:\GitHub\vachik\IDC_C#\n6-1_CalculatorWPF\bin\Release\net5.0-windows\publish\n6-1_CalculatorWPF.pdb
+D:\GitHub\vachik\IDC_C#\n6-1_CalculatorWPF\bin\Release\net5.0-windows\publish\clrcompression.dll
+D:\GitHub\vachik\IDC_C#\n6-1_CalculatorWPF\bin\Release\net5.0-windows\publish\clrjit.dll
+D:\GitHub\vachik\IDC_C#\n6-1_CalculatorWPF\bin\Release\net5.0-windows\publish\coreclr.dll
+D:\GitHub\vachik\IDC_C#\n6-1_CalculatorWPF\bin\Release\net5.0-windows\publish\mscordaccore.dll
+D:\GitHub\vachik\IDC_C#\n6-1_CalculatorWPF\bin\Release\net5.0-windows\publish\D3DCompiler_47_cor3.dll
+D:\GitHub\vachik\IDC_C#\n6-1_CalculatorWPF\bin\Release\net5.0-windows\publish\PenImc_cor3.dll
+D:\GitHub\vachik\IDC_C#\n6-1_CalculatorWPF\bin\Release\net5.0-windows\publish\PresentationNative_cor3.dll
+D:\GitHub\vachik\IDC_C#\n6-1_CalculatorWPF\bin\Release\net5.0-windows\publish\vcruntime140_cor3.dll
+D:\GitHub\vachik\IDC_C#\n6-1_CalculatorWPF\bin\Release\net5.0-windows\publish\wpfgfx_cor3.dll
+D:\GitHub\vachik\IDC_C#\n6-1_CalculatorWPF\bin\Release\net5.0-windows\publish\n6-1_CalculatorWPF.exe
